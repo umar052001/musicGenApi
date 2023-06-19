@@ -101,9 +101,6 @@ sympy==1.11.1
 thinc==8.1.10
 threadpoolctl==3.1.0
 tokenizers==0.13.3
-torch==2.0.1+cu117
-torchaudio==2.0.2+cu117
-torchvision==0.15.2+cu117
 tqdm==4.65.0
 transformers==4.30.2
 treetable==0.2.5
@@ -115,3 +112,7 @@ urllib3==1.26.13
 uvicorn==0.22.0
 wasabi==1.1.2
 xformers==0.0.20
+torch --index-url https://download.pytorch.org/whl/cu117
+torchvision --index-url https://download.pytorch.org/whl/cu117
+torchaudio --index-url https://download.pytorch.org/whl/cu117
+uvicorn
